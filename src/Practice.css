@@ -1,0 +1,17 @@
+.pptdiv{
+	width: 49%;
+}
+
+.titlediv{
+	width: 49%;
+	background: #D3D3D3;
+}
+
+@media (max-width: 1000px) {
+	.pptdiv{
+		width: 100%;
+	}
+	.titlediv{
+		width: 100%;
+	}
+}
