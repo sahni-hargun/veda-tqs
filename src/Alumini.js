@@ -1,5 +1,5 @@
 import React from 'react';
-import alumini1 from './images/kartik.jpeg';
+import alumini1 from './images/kartik.jpg';
 import alumini2 from './images/chaitanya.jpg';
 import alumini3 from './images/raspreet.jpg';
 import alumini4 from './images/sambhav.jpg';
