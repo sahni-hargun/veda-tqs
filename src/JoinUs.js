@@ -9,7 +9,7 @@ function JoinUs() {
       </div>
       </center>
       <div className="container">
-      <form data-netlify="true">
+      <form name="hiringform" data-netlify="true">
        <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" className="form-control" id="name" placeholder="Enter your name"/>
