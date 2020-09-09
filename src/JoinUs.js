@@ -57,7 +57,7 @@ const sendEmail=(e)=>{
 	document.getElementById('college').value="";
 	document.getElementById('department').value="";
 	document.getElementById('hiring').value="";
-	window.open(`mailto:thequizsociety@gmail.com?subject=Hiring&body=Name=${name}%0d%0aCollege=${college}%0d%0aDepartment=${department}%0d%0aWhy should we hire you?%0d%0aAnswer=${hiring}`);
+	window.open(`mailto:thequizsociety@gmail.com?subject=Hiring&body=Name: ${name}%0d%0aCollege: ${college}%0d%0aDepartment: ${department}%0d%0aWhy should we hire you?%0d%0aAnswer: ${hiring}`);
 }
 
 export default JoinUs;
