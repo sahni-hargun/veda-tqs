@@ -14,11 +14,11 @@ function App() {
          <Router>
           <Navbar />
           <Switch>
-	         <Route path="/" exact component={Home} />
-	         <Route path="/practice" component={Practice} />
-           <Route path="/member" component={Member} />
-           <Route path="/alumini" component={Alumini} />
-           <Route path="/joinus" component={JoinUs} />
+	         <Route exact path="/" component={Home} />
+	         <Route exact path="/practice" component={Practice} />
+           <Route exact path="/member" component={Member} />
+           <Route exact path="/alumini" component={Alumini} />
+           <Route exact path="/joinus" component={JoinUs} />
           </Switch>
           <Footer />
          </Router>
