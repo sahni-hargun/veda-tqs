@@ -14,19 +14,19 @@ class Navbar extends Component{
              <center>
               <div className="navbar-nav">
                <li className="nav-link">
-                <Link to="/" style={{ color: 'black' }}>Home</Link>
+                <Link to="/" data-toggle="collapse" data-target=".navbar-collapse" style={{ color: 'black' }}>Home</Link>
               </li>
               <li className="nav-link">
-                <Link to="/practice" style={{ color: 'black' }}>Recent Quizzes</Link>
+                <Link to="/practice" data-toggle="collapse" data-target=".navbar-collapse" style={{ color: 'black' }}>Recent Quizzes</Link>
               </li>
               <li className="nav-link">
-                <Link to="/member" style={{ color: 'black' }}>Members</Link>
+                <Link to="/member" data-toggle="collapse" data-target=".navbar-collapse" style={{ color: 'black' }}>Members</Link>
               </li>
               <li className="nav-link">
-                <Link to="/alumini" style={{ color: 'black' }}>Alumini</Link>
+                <Link to="/alumini" data-toggle="collapse" data-target=".navbar-collapse" style={{ color: 'black' }}>Alumini</Link>
               </li>
               <li className="nav-link">
-                <Link to="/joinus" style={{ color: 'black' }}>Join Us</Link>
+                <Link to="/joinus" data-toggle="collapse" data-target=".navbar-collapse" style={{ color: 'black' }}>Join Us</Link>
               </li>
               </div>
               </center>
