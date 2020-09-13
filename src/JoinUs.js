@@ -9,14 +9,14 @@ function JoinUs() {
       </div>
       </center>
       <div className="container">
-      <form onSubmit={sendEmail}>
+      <form action="https://formspree.io/xbjprlkk" method="POST">
        <div className="form-group">
         <label htmlFor="name">Name</label>
-        <input type="text" className="form-control" id="name" placeholder="Enter your name"/>
+        <input type="text" className="form-control" id="name" placeholder="Enter your name" name="name"/>
        </div>
        <div className="form-group">
        <label htmlFor="college">College</label>
-       <select className="form-control form-control-sm" id="college">
+       <select className="form-control form-control-sm" id="college" name="college">
         <option>Choose your college</option>
         <option>MSI</option>
         <option>MSIT</option>
@@ -24,7 +24,7 @@ function JoinUs() {
        </div>
        <div className="form-group">
        <label htmlFor="department">Department</label>
-       <select className="form-control form-control-sm" id="department">
+       <select className="form-control form-control-sm" id="department" name="department">
         <option>Choose Department</option>
         <option>Quizzing</option>
         <option>Technical</option>
@@ -35,7 +35,7 @@ function JoinUs() {
        </div>
        <div className="form-group">
         <label htmlFor="hiring">Why should we hire you for the department that you chose?</label>
-        <textarea className="form-control" id="hiring" rows="5"></textarea>
+        <textarea className="form-control" id="hiring" rows="5" name="hiring"></textarea>
        </div>
        <center>
        <button type="submit" className="btn btn-primary">Submit</button>
