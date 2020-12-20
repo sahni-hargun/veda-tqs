@@ -34,6 +34,10 @@ function JoinUs() {
        </select>
        </div>
        <div className="form-group">
+        <label htmlFor="phone">Contact</label>
+        <input type="text" className="form-control" id="phone" placeholder="Enter your phone number" name="phone"/>
+       </div>
+       <div className="form-group">
         <label htmlFor="hiring">Why should we hire you for the department that you chose?</label>
         <textarea className="form-control" id="hiring" rows="5" name="hiring"></textarea>
        </div>
