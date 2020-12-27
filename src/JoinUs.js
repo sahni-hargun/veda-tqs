@@ -9,7 +9,7 @@ function JoinUs() {
       </div>
       </center>
       <div className="container">
-      <form action="https://formspree.io/f/mzbkkrrb" method="POST">
+      <form action="https://formspree.io/f/mvovvbjk" method="POST">
        <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" className="form-control" id="name" placeholder="Enter your name" name="name"/>
