@@ -6,13 +6,14 @@ import member4 from './images/naman.jpg';
 import member5 from './images/sanskar.jpg';
 import member6 from './images/aditya.jpg';
 import member7 from './images/anmol.jpg';
+import member8 from './images/lakshit.jpg';
 
 function Member() {
   return (
     <div className="Member">
       <center>   
       <div style={{borderBottom: '2px solid black', width: '300px', marginTop: '5px', marginBottom: '15px'}}> 
-      <h2 style={{fontWeight: '200'}}>Members</h2>
+      <h2 style={{fontWeight: '200'}}>Core Members</h2>
       </div>
       </center>
       <div style={{width: '100%'}}>
@@ -55,6 +56,12 @@ function Member() {
        <center>
         <img src={member7} width="200px" height="200px" style={{borderRadius: '50%'}}/>
         <p>Anmol Sharma</p>
+       </center>
+      </div>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+       <center>
+        <img src={member8} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Lakshit Sharma</p>
        </center>
       </div>
     </div>
