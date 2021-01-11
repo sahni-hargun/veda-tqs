@@ -72,7 +72,7 @@ function Home() {
       <div style={{background: 'black', color: 'white', width: '100%'}}>
        <div className="container" style={{padding: '10px'}}>
         <center>
-         <p style={{fontSize: '30px'}}>Event Update</p>
+         <p style={{fontSize: '30px'}}>Event Updates</p>
          <center>
           <img src={image0} height="300" width="300"/>
          </center> 

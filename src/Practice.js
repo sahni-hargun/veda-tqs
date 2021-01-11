@@ -10,6 +10,15 @@ function Practice() {
       </div>
       </center>
       <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Recruitment Quiz 2021</span></div></center>
+       <center>
+       <div className="pptdiv">
+       <iframe src="https://onedrive.live.com/embed?cid=025C04578EBDCF7A&amp;resid=25C04578EBDCF7A%211912&amp;authkey=AH-JxvvuSn6Rdko&amp;em=2&amp;wdAr=1.7777777777777777" width="100%" height="325px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+       </div>
+       </center>
+      </div>
+      <br />
+      <div>
        <center><div className="titlediv"><span style={{fontSize: '25px'}}>BizTech Prelims</span></div></center>
        <center>
        <div className="pptdiv">
