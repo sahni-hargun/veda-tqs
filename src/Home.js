@@ -16,7 +16,6 @@ const slideImages = [
 function Home() {
   return (
     <div className="Home">
-      <br />
       <div className="jumbotron jumbotron-fluid" style={{marginBottom: '0'}}>
        <div className="container">
         <h1 className="display-4" style={{fontSize: '40px'}}>Veda-The Quiz Society</h1>
