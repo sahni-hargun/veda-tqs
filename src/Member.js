@@ -3,7 +3,7 @@ import member3 from './images/hargun.jpg';
 import member5 from './images/sanskar.jpg';
 import member6 from './images/aditya.jpg';
 import member8 from './images/lakshit.jpg';
-import member9 from './images/default.jpg';
+import member9 from './images/kartikay.jpg';
 import member10 from './images/akanksha.jpg';
 
 
