@@ -3,6 +3,9 @@ import member3 from './images/hargun.jpg';
 import member5 from './images/sanskar.jpg';
 import member6 from './images/aditya.jpg';
 import member8 from './images/lakshit.jpg';
+import member9 from './images/kartikay.jpg';
+import member10 from './images/akankshas.jpg';
+
 
 function Member() {
   return (
@@ -36,6 +39,19 @@ function Member() {
        <center>
         <img src={member8} width="200px" height="200px" style={{borderRadius: '50%'}}/>
         <p>Lakshit Sharma</p>
+       </center>
+      </div>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={member9} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Kartikay Tyagi</p>
+       </center>
+      </div>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={member10} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Akanksha Sengupta</p>
        </center>
       </div>
     </div>
