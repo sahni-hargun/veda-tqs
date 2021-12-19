@@ -16,11 +16,9 @@ const slideImages = [
 function Home() {
   return (
     <div className="Home">
-      <div className="jumbotron jumbotron-fluid" style={{marginBottom: '0'}}>
-       <div className="container">
-        <h1 className="display-4" style={{fontSize: '40px'}}>Veda-The Quiz Society</h1>
-        <p className="lead" style={{fontSize: '20px'}}>Everyone loves sport. And everyone loves a quiz. - Sue Barker</p>
-       </div>
+      <div class="p-5 text-black" style={{backgroundColor: '#E9ECEF'}}>
+       <h1 style={{fontSize: '40px', fontWeight: 400}}>Veda-The Quiz Society</h1>
+       <p style={{fontSize: '20px', fontWeight: 200}}>Everyone loves sport. And everyone loves a quiz. - Sue Barker</p>
       </div>
       <center>
       <div className="slide-container">

@@ -9,21 +9,21 @@ function JoinUs() {
       </div>
       </center>
       <div className="container">
-      <form action="https://formspree.io/f/mvovvbjk" method="POST">
-       <div className="form-group">
-        <label htmlFor="name">Name</label>
+      <form action="https://formspree.io/f/xlezevbv" method="POST">
+       <div className="mb-3">
+        <label htmlFor="name" className="form-label">Name</label>
         <input type="text" className="form-control" id="name" placeholder="Enter your name" name="name"/>
        </div>
-       <div className="form-group">
-       <label htmlFor="college">College</label>
+       <div className="mb-3">
+       <label htmlFor="college" className="form-label">College</label>
        <select className="form-control form-control-sm" id="college" name="college">
         <option>Choose your college</option>
         <option>MSI</option>
         <option>MSIT</option>
        </select>
        </div>
-       <div className="form-group">
-       <label htmlFor="department">Department</label>
+       <div className="mb-3">
+       <label htmlFor="department" className="form-label">Department</label>
        <select className="form-control form-control-sm" id="department" name="department">
         <option>Choose Department</option>
         <option>Quizzing</option>
@@ -33,12 +33,12 @@ function JoinUs() {
         <option>Sponsorship</option>
        </select>
        </div>
-       <div className="form-group">
-        <label htmlFor="phone">Contact</label>
+       <div className="mb-3">
+        <label htmlFor="phone" className="form-label">Contact</label>
         <input type="text" className="form-control" id="phone" placeholder="Enter your phone number" name="phone"/>
        </div>
-       <div className="form-group">
-        <label htmlFor="hiring">Why should we hire you for the department that you chose?</label>
+       <div className="mb-3">
+        <label htmlFor="hiring" className="form-label">Why should we hire you for the department that you chose?</label>
         <textarea className="form-control" id="hiring" rows="5" name="hiring"></textarea>
        </div>
        <center>

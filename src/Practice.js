@@ -10,6 +10,15 @@ function Practice() {
       </div>
       </center>
       <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Tech Trivia with IIC MSIT</span></div></center>
+       <center>
+       <div className="pptdiv">
+       <iframe src="https://onedrive.live.com/embed?resid=AA055C90E45906A7%21113&amp;authkey=%21AHpWBGmivLU8pWQ&amp;em=2&amp;wdAr=1.7777777777777777" width="100%" height="325px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+       </div>
+       </center>
+      </div>
+      <br />
+      <div>
        <center><div className="titlediv"><span style={{fontSize: '25px'}}>Recruitment Quiz 2021</span></div></center>
        <center>
        <div className="pptdiv">
@@ -50,24 +59,6 @@ function Practice() {
        <center>
        <div className="pptdiv">
        <iframe src="https://onedrive.live.com/embed?cid=025C04578EBDCF7A&amp;resid=25C04578EBDCF7A%211891&amp;authkey=AIyJyXnqOySlTYI&amp;em=2&amp;wdAr=1.3333333333333333" width="100%" height="325px" frameBorder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-       </div>
-       </center>
-      </div>
-      <br />
-      <div>
-       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Technophilia Prelims</span></div></center>
-       <center>
-       <div className="pptdiv">
-       <iframe src="https://onedrive.live.com/embed?cid=025C04578EBDCF7A&amp;resid=25C04578EBDCF7A%211893&amp;authkey=ACaUkQwamq4kqE0&amp;em=2&amp;wdAr=1.3333333333333333" width="100%" height="325px" frameBorder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-       </div>
-       </center>
-      </div>
-      <br />
-      <div>
-       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Technophilia Finals</span></div></center>
-       <center>
-       <div className="pptdiv">
-       <iframe src="https://onedrive.live.com/embed?cid=025C04578EBDCF7A&amp;resid=25C04578EBDCF7A%211895&amp;authkey=ADBS_T4x2LhrE1Q&amp;em=2&amp;wdAr=1.3333333333333333" width="100%" height="325px" frameBorder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
        </div>
        </center>
       </div>
