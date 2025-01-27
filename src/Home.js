@@ -26,17 +26,17 @@ function Home() {
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
-            <span>Pop It Like Its Hot 2020</span>
+            <span> Epstein Little Quizlet post with winners and core team  </span>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
             </div>
-            <span>BizTech 2020</span>
+            <span>Epstein Little Quizlet  2023</span>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
             </div>
-            <span>Best Event Award</span>
+            <span>Veda Orientation 2024 </span>
           </div>
         </Slide>
       </div>
