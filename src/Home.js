@@ -2,9 +2,9 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import image0 from './images/slide_0.jpg';
-import image1 from './images/slide_1.jpg';
-import image2 from './images/slide_2.jpg';
-import image3 from './images/slide_3.jpg';
+import image1 from './images/EPSall.jpg';
+import image2 from './images/epscore.jpg';
+import image3 from './images/msiori24.jpg';
 import './Home.css';
 
 const slideImages = [
