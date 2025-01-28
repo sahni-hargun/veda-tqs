@@ -7,7 +7,10 @@ import Tanmay from "./images/tanmay.jpg";
 import Vibhash from "./images/Vibhashsingh.jpg";
 import Brahmjot from "./images/bjosh.jpg";
 import Aman from "./images/amansriv.jpg";
-
+import amar from "./images/amardeep.jpg";
+import Anjli from "./images/anjli.jpg";
+import kanak from "./images/kanakjpg.jpg";
+import kanishk from "./images/kanishk.jpg";
 
 function Member() {
   return (
@@ -50,6 +53,17 @@ function Member() {
       <div style={{ width: "100%" }}>
         <center>
           <img
+            src={kanak}
+            
+            height="200px"
+            style={{ borderRadius: "25%" }}
+          />
+          <p>General Secretary <br/> Kanak </p>
+        </center>
+      </div>
+      <div style={{ width: "100%" }}>
+        <center>
+          <img
             src={Brahmjot}
             
             height="200px"
@@ -72,6 +86,28 @@ function Member() {
       <div style={{ width: "100%" }}>
         <center>
           <img
+            src={amar}
+            
+            height="200px"
+            style={{ borderRadius: "25%" }}
+          />
+          <p> Design Head <br/> Amardeep </p>
+        </center>
+      </div>
+      <div style={{ width: "100%" }}>
+        <center>
+          <img
+            src={Anjli}
+            
+            height="200px"
+            style={{ borderRadius: "25%" }}
+          />
+          <p> Design Head <br/> Anjli</p>
+        </center>
+      </div>
+      <div style={{ width: "100%" }}>
+        <center>
+          <img
             src={Vibhash}
             
             height="200px"
@@ -89,6 +125,17 @@ function Member() {
             style={{ borderRadius: "25%" }}
           />
           <p>Event Head <br/> Prabhav</p>
+        </center>
+      </div>
+      <div style={{ width: "100%" }}>
+        <center>
+          <img
+            src={kanishk}
+            
+            height="200px"
+            style={{ borderRadius: "25%" }}
+          />
+          <p> Public Relations & Sponsorship Head <br/> Kanishk </p>
         </center>
       </div>
       <div style={{ width: "100%" }}>
