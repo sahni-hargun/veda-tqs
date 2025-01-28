@@ -17,7 +17,7 @@ function Member() {
     <div className="Member">
       <center>   
       <div style={{borderBottom: '2px solid black', width: '300px', marginTop: '5px', marginBottom: '15px'}}> 
-      <h2 style={{fontWeight: '200'}}>Alumini</h2>
+      <h2 style={{fontWeight: '200'}}>Members</h2>
       </div>
       </center>
       <div style={{width: '100%'}}>

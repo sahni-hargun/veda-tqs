@@ -1,16 +1,16 @@
 import React from 'react';
-import './Practice.css';
+import './Event.css';
 import triv13 from './images/13thtriviatrials.jpg';
 import epsq from './images/epsq.jpg';
 import chaturq from './images/chaturq.jpg';
 import neural from "./images/neural.jpg"
 
-function Practice() {
+function Event() {
   return (
-    <div className="Practice">
+    <div className="Event">
       <center>   
       <div style={{borderBottom: '2px solid black', width: '300px', marginTop: '5px', marginBottom: '15px'}}> 
-      <h2 style={{fontWeight: '200'}}>Recent Events</h2>
+      <h2 style={{fontWeight: '200'}}>Recent Quizzes</h2>
       </div>
       </center>
       <div>
@@ -106,4 +106,4 @@ function Practice() {
   );
 }
 
-export default Practice;
+export default Event;

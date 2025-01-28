@@ -20,7 +20,7 @@ class Navbar extends Component{
           </Link>
         </li>
         <li class="nav-link">
-         <Link to="/practice" style={{ color: 'black' , textDecoration:'none'}}>
+         <Link to="/event" style={{ color: 'black' , textDecoration:'none'}}>
           <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Recent Quizzes</span>
          </Link>
         </li>
