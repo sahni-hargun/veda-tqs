@@ -1,6 +1,6 @@
 import React from 'react';
 import './Practice.css';
-import triv13 from './images/13triv.jpg';
+import triv13 from './images/13thtriviatrials.jpg';
 import epsq from './images/epsq.jpg';
 import chaturq from './images/chaturq.jpg';
 import neural from "./images/neural.jpg"
