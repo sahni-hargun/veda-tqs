@@ -1,15 +1,54 @@
 import React from 'react';
 import './Practice.css';
+import triv13 from './images/13triv.jpg';
+import epsq from './images/epsq.jpg';
+import chaturq from './images/chaturq.jpg';
+import neural from "./images/neural.jpg"
 
 function Practice() {
   return (
     <div className="Practice">
       <center>   
       <div style={{borderBottom: '2px solid black', width: '300px', marginTop: '5px', marginBottom: '15px'}}> 
-      <h2 style={{fontWeight: '200'}}>Recent Quizzes</h2>
+      <h2 style={{fontWeight: '200'}}>Recent Events</h2>
       </div>
       </center>
       <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>The Neural Challenge 'Avensis 2025' </span></div></center>
+       <center>
+       <div className="picdiv">
+        <img src={neural} style={{height: '500px'}}/>
+       
+       </div>
+       </center>
+      </div>  
+      <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>13th Trivia Trials A General Quiz</span></div></center>
+       <center>
+       <div className="picdiv">
+        <img src={triv13} style={{height: '500px'}}/>
+       
+       </div>
+       </center>
+      </div>  
+      <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Epstein's Little Quizlet The General Quiz </span></div></center>
+       <center>
+       <div className="picdiv">
+        <img src={epsq} style={{height: '500px'}}/>
+       
+       </div>
+       </center>
+      </div>  
+      <div>
+       <center><div className="titlediv"><span style={{fontSize: '25px'}}>Chaturya Pariksha 'Genesis 2024' </span></div></center>
+       <center>
+       <div className="picdiv">
+        <img src={chaturq} style={{height: '500px'}}/>
+       
+       </div>
+       </center>
+      </div>      <div>
        <center><div className="titlediv"><span style={{fontSize: '25px'}}>Tech Trivia with IIC MSIT</span></div></center>
        <center>
        <div className="pptdiv">
