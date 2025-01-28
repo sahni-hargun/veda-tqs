@@ -15,141 +15,82 @@ import kanishk from "./images/kanishk.jpg";
 function Member() {
   return (
     <div className="Member">
-      <center>
-        <div
-          style={{
-            borderBottom: "2px solid black",
-            width: "300px",
-            marginTop: "5px",
-            marginBottom: "15px",
-          }}
-        >
-          <h2 style={{ fontWeight: "200" }}>Core Members</h2>
-        </div>
+      <center>   
+      <div style={{borderBottom: '2px solid black', width: '300px', marginTop: '5px', marginBottom: '15px'}}> 
+      <h2 style={{fontWeight: '200'}}>Alumini</h2>
+      </div>
       </center>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={arnvh}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>President <br/> Arnvh Sharma</p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={arnvh} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Arnvh Sharma <br/> President</p>
+       </center>
       </div>
-      
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={adityabhaskar}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Vice President <br/> Aditya Bhaskar</p>
-        </center>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={adityabhaskar} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Aditya Bhaskar <br/> Vice President</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={kanak}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>General Secretary <br/> Kanak </p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={kanak} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Kanak <br/>  General Secretary</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Brahmjot}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Content Head <br/> Brahmjot Singh</p>
-        </center>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={Brahmjot} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Brahmjot Singh <br/> Content Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Aman}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Content Head <br/> Aman Kumar</p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={Aman} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Aman Kumar <br/> Content Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={amar}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p> Design Head <br/> Amardeep </p>
-        </center>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={amar} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Amardeep <br/>  Design Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Anjli}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p> Design Head <br/> Anjli</p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={Anjli} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Anjli <br/> Design Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Vibhash}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Event Head <br/> Vibhash</p>
-        </center>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={Vibhash} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Vibhash <br/> Event Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Prabhav}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Event Head <br/> Prabhav</p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={Prabhav} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Prabhav <br/> Event Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={kanishk}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p> Public Relations & Sponsorship Head <br/> Kanishk </p>
-        </center>
+      <div style={{width: '100%', background: '#D3D3D3'}}>
+      <br/>
+       <center>
+        <img src={kanishk} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p> Kanishk <br/>  Public Relations & Sponsorship Head</p>
+       </center>
       </div>
-      <div style={{ width: "100%" }}>
-        <center>
-          <img
-            src={Tanmay}
-            
-            height="200px"
-            style={{ borderRadius: "25%" }}
-          />
-          <p>Public Relations & Sponsorship Head <br/> Tanmay Khandelwal</p>
-        </center>
+      <div style={{width: '100%'}}>
+       <center>
+        <img src={Tanmay} width="200px" height="200px" style={{borderRadius: '50%'}}/>
+        <p>Tanmay Khandelwal <br/> Public Relations & Sponsorship Head</p>
+       </center>
       </div>
-      
     </div>
   );
 }
