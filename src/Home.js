@@ -1,10 +1,11 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import image0 from './images/slide_0.jpg';
-import image1 from './images/EPSall.jpg';
+
+import image1 from './images/msiori24.jpg';
 import image2 from './images/epscore.jpg';
-import image3 from './images/msiori24.jpg';
+import image3 from './images/EPSall.jpg';
+import brain from './images/brian.jpg';
 import './Home.css';
 
 const slideImages = [
@@ -26,17 +27,17 @@ function Home() {
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
-            <span> Epstein Little Quizlet post with winners and core team  </span>
+            <span>Pop It Like Its Hot 2020</span>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
             </div>
-            <span>Epstein Little Quizlet  2023</span>
+            <span>BizTech 2020</span>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
             </div>
-            <span>Veda Orientation 2024 </span>
+            <span>Best Event Award</span>
           </div>
         </Slide>
       </div>
@@ -46,6 +47,7 @@ function Home() {
        <div className="container" style={{padding: '10px'}}>
         <center>
          <p style={{fontSize: '30px'}}>About Us</p>
+         <p>VEDA is the official Quiz Society of MSI-T</p>
          <p>A mob of intrigued intellectuals, Veda is the ‘crème-de-la-crème’ of interactive societies where a diverse group of individuals, with a huge armamentarium of niche interests, work towards a common goal, which is to gain more knowledge.</p>
          <p>Beginning as a small group of people interested in quizzing, we’ve grown to become a recognized and successful society whose events are attended and appreciated by quizzers across Delhi.</p>
          <p>We have had numerous experiences worth mentioning as we have won a staggering 100+ podiums since the advent of our society including the hat trick we achieved in 2018 of winning a podium at the IPU Anugoonj Annual Quiz Competition. It’s really tough to emerge victorious among 120-130 teams and we did it thrice in a row, and that is something we will always cherish.</p>
@@ -71,7 +73,7 @@ function Home() {
         <center>
          <p style={{fontSize: '30px'}}>Event Updates</p>
          <center>
-          <img src={image0} height="300" width="300"/>
+          <img src={brain} height="300" width="300"/>
          </center> 
          <br />       
         </center> 
